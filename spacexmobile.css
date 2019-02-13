@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@media (max-width: 1680px){
+	
+	.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#FAFAFA;
+}
+#Navbar {
+    background-color: #1E5F90;
+    width: 100%;
+    height: 47px;
+    position: absolute;
+    padding-top: 6px;
+}
+#Falcon9 {
+    width: 33.3333%;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    float: left;
+    clear: right;
+    color: #FAFAFA;
+    font-family: "Axon Bold";
+    font-style: normal;
+    font-variant: normal;
+    font-size: 19px;
+    top: 12px;
+}
+#Falconheavy {
+    width: 33.3333%;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    float: left;
+    clear: right;
+    color: #FAFAFA;
+    font-family: "Axon Bold";
+    font-style: normal;
+    font-variant: normal;
+    font-size: 19px;
+    top: 12px;
+}
+#Dragon {
+    width: 33.3333%;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    float: left;
+    clear: right;
+    color: #FAFAFA;
+    font-family: "Axon Bold";
+    font-style: normal;
+    font-variant: normal;
+    font-size: 19px;
+    top: 12px;
+}
+#AboutSpaceX {
+    width: 25%;
+    height: 15px;
+    text-align: center;
+    position: relative;
+    float: left;
+    clear: right;
+    color: #FAFAFA;
+    font-family: "Axon Light";
+    font-style: normal;
+    font-variant: normal;
+    font-size: large;
+    top: 10px;
+}
+#Careers {
+    width: 25%;
+    height: 15px;
+    text-align: center;
+    position: relative;
+    float: left;
+    clear: right;
+    color: #FAFAFA;
+    font-family: "Axon Light";
+    font-style: normal;
+    font-variant: normal;
+    font-size: large;
+    top: 10px;
+}
+#Gallery {
+    width: 25%;
+    height: 15px;
+    text-align: center;
+    position: relative;
+    float: left;
+    clear: right;
+    color: #FAFAFA;
+    font-family: "Axon Light";
+    font-style: normal;
+    font-variant: normal;
+    font-size: large;
+    top: 10px;
+	width: 25%;
+}
+#Shop {
+    width: 25%;
+    height: 15px;
+    text-align: center;
+    position: relative;
+    float: left;
+    clear: right;
+    color: #FAFAFA;
+    font-family: "Axon Light";
+    font-style: normal;
+    font-variant: normal;
+    font-size: large;
+    top: 10px;
+}
+#Falcon9:hover .overlay{
+	opacity: 1;
+	height: 300%;
+	margin-top: -40px;
+	transition: 1s ease;
+}
+#Falconheavy:hover .overlay{
+	opacity: 1;
+	height: 300%;
+	margin-top: -40px;
+	transition: 1s ease;
+}
+#Dragon:hover .overlay{
+	opacity: 1;
+	height: 300%;
+	margin-top: -40px;
+	transition: 1s ease;
+}
+#AboutSpaceX:hover .overlay{
+	opacity: 1;
+	height: 300%;
+}
+#Careers:hover .overlay{
+	opacity: 1;
+	height: 300%;
+}
+#Gallery:hover .overlay{
+	opacity: 1;
+	height: 300%;
+}
+#Shop:hover .overlay{
+	opacity: 1;
+	height: 300%;
+}
+
+}
+#navbar2 {
+    background-color: #1E5F90;
+    width: 100%;
+    height: 47px;
+    position: absolute;
+    bottom: 0px;
+}
